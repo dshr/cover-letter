@@ -1,0 +1,74 @@
+@page {
+
+	margin: 4rem;
+	size: a4 portrait;
+}
+
+html {
+
+	color: #202020;
+	font-family: "Work Sans";
+	line-height: 1.5rem;
+	font-size: 18px;
+}
+
+body {
+
+	padding: 1rem 2rem 2rem;
+	margin: 0;
+}
+
+@media print {
+
+	body {
+
+		padding: 3rem;
+	}
+}
+
+a {
+
+	border: 0;
+	border-bottom: 0.05rem solid black;
+	color: #2e2e2e;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+
+	font-weight: 600;
+}
+
+h1 {
+
+	font-size: 1.8rem;
+}
+
+
+h1, h2 {
+
+	border-top: 0.45rem solid black;
+	padding-top: 0.45em;
+}
+
+h3 {
+
+	margin-bottom: 0;
+}
+
+h4, h5 {
+
+	margin: 0.25rem 0 0;
+}
+
+h5 {
+
+	font-size: 1.1rem;
+	font-style: italic;
+	font-weight: 500;
+}
+
+strong {
+
+	font-weight: 600;
+}
